@@ -13,7 +13,7 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="120sp"
-        android:text="홈화면"
+        android:text="홈화면1"
         android:gravity="center"
         android:textSize="80sp"
         app:layout_constraintTop_toTopOf="parent"
