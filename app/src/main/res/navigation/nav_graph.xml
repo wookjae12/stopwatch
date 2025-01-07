@@ -8,16 +8,18 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.wjjang.stopwatch.fragments.HomeFragment"
-        android:label="fragment_home"
+        android:label="Home"
         tools:layout="@layout/fragment_home" />
-    <fragment
-        android:id="@+id/watchFragment"
-        android:name="com.wjjang.stopwatch.fragments.WatchFragment"
-        android:label="fragment_watch"
-        tools:layout="@layout/fragment_watch" />
+
     <fragment
         android:id="@+id/timerFragment"
         android:name="com.wjjang.stopwatch.fragments.TimerFragment"
-        android:label="fragment_timer"
+        android:label="Timer"
         tools:layout="@layout/fragment_timer" />
+
+    <fragment
+        android:id="@+id/watchFragment"
+        android:name="com.wjjang.stopwatch.fragments.WatchFragment"
+        android:label="Watch"
+        tools:layout="@layout/fragment_watch" />
 </navigation>
